@@ -27,6 +27,10 @@ Because the trained model also has a large capacity, you need to download it thr
 If you unzip just like the directory picture, it will work without any problems.
 
 ## Requirements
+For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries.
+```
+conda env create -f environment_CS470.yml
+```
 
 ## Training
 You can train with simple commands like the following by setting the required argumentss on 'main.py' in advance.
