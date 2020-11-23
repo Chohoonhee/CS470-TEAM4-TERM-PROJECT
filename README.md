@@ -15,13 +15,14 @@ When the git was first clone, there would not be an experiment and data folder, 
 It is important to note that the data folder should be unzip so that there is no additional data folder in the data folder.
 
 ## Dataset
-
+https://drive.google.com/file/d/1nf8w2YCTlLGRb_HbrB6cW1TXp3rEJoq6/view?usp=sharing
 
 You can download dataset through link.
 We recommend using the dataset we provide because we used the nuscene dataset by processing.
 
 
 ## Trained Model
+https://drive.google.com/file/d/18MgeVviFO9e4zpctcg3T314BQ_6--2t5/view?usp=sharing
 
 Because the trained model also has a large capacity, you need to download it through drive link.
 If you unzip just like the directory picture, it will work without any problems.
