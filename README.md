@@ -7,7 +7,7 @@ It is a model that predicts the trajectory of the Vehicle by using deep learning
 We used Attention, LSTM, etc. to solve various problems of existing MTP. The path is generated for all the agents on the image, not for one agent. 
 
 ## Directory Setting
-![Directory](Directory_Setting.png){: width="100" height="100"}
+![Directory](Directory_Setting.png width="700" height="370")
 ![Experiment](Experiment_Directory.png)
 ![Data](Data_Directory.png)
 If the train or test (visualization) is to be carried out smoothly, the form of the directory should be as shown in the figure above.
