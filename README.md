@@ -8,7 +8,8 @@ We used Attention, LSTM, etc. to solve various problems of existing MTP. The pat
 
 ## Directory Setting
 <img src="Directory_Setting.png"  width="500" ><img src="Experiment_Directory.png"  width="500" >
-<img src="Data_Directory.png"  width="500" >
+<img src="Data_Directory.png"  width="500">
+
 If the train or test (visualization) is to be carried out smoothly, the form of the directory should be as shown in the figure above.
 When the git was first clone, there would not be an experiment and data folder, which was uploaded separately using drive because of its large capacity.
 It is important to note that the data folder should be unzip so that there is no additional data folder in the data folder.
@@ -36,6 +37,7 @@ python3 main.py
 
 ## Testing
 We stored about 80 printed images in '/test/results' in advance. However, if you want to print a new images and see the ADE, FDE results, you can see the new 80 imagess and the following results with the command below.
+
 ![Metrics](Metrics_result.png)
 
 ```
