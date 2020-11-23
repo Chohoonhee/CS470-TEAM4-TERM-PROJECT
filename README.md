@@ -45,7 +45,8 @@ python3 test_visualize.py
 ```
 
 ## See the results
-![Results](Result_visualization.png)
+<img src="Result_visualization.png"  width="500">
+
 
 
 
