@@ -30,6 +30,7 @@ If you unzip just like the directory picture, it will work without any problems.
 For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries.
 ```
 conda env create -f CS470_environment.yml
+conda activate new_py
 ```
 
 ## Training
