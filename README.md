@@ -7,9 +7,9 @@ It is a model that predicts the trajectory of the Vehicle by using deep learning
 We used Attention, LSTM, etc. to solve various problems of existing MTP. The path is generated for all the agents on the image, not for one agent. 
 
 ## Directory Setting
-<img src="Directory_Setting.png"  width="500" ></center>
-<img src="Experiment_Directory.png"  width="500" ></center>
-<img src="Data_Directory.png"  width="500"></center>
+<center><img src="Directory_Setting.png"  width="500" ></center>
+<center><img src="Experiment_Directory.png"  width="500" ></center>
+<center><img src="Data_Directory.png"  width="500"></center>
 
 If the train or test (visualization) is to be carried out smoothly, the form of the directory should be as shown in the figure above.
 When the git was first clone, there would not be an experiment and data folder, which was uploaded separately using drive because of its large capacity.
