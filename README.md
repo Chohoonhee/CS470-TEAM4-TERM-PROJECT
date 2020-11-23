@@ -8,9 +8,8 @@ We used Attention, LSTM, etc. to solve various problems of existing MTP. The pat
 
 ## Directory Setting
 <img src="Directory_Setting.png"  width="700" height="370">
-![Directory](Directory_Setting.png width="700" height="370")
-![Experiment](Experiment_Directory.png)
-![Data](Data_Directory.png)
+<img src="Experiment_Directory.png"  width="700" height="370">
+<img src="Data_Directory.png"  width="700" height="370">
 If the train or test (visualization) is to be carried out smoothly, the form of the directory should be as shown in the figure above.
 When the git was first clone, there would not be an experiment and data folder, which was uploaded separately using drive because of its large capacity.
 It is important to note that the data folder should be unzip so that there is no additional data folder in the data folder.
