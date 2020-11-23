@@ -35,14 +35,14 @@ python3 main.py
 
 ## Testing
 We stored about 80 printed images in '/test/results' in advance. However, if you want to print a new images and see the ADE, FDE results, you can see the new 80 imagess and the following results with the command below.
-![Results](Metric_results.png)
+![Metrics](Metrics_result.png)
 
 ```
 python3 test_visualize.py
 ```
 
 ## See the results
-
+![Results](Result_visualization.png)
 
 
 
