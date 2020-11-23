@@ -4,7 +4,10 @@ It is a model that predicts the trajectory of the Vehicle by using deep learning
 
 ![Model Diagram](model_figure.png)
 
-Trajectory forecasting task was implemented using normalizing-flow, and achieving diverse while admissible trajectorys for vehicles.
+We used Attention, LSTM, etc. to solve various problems of existing MTP.
+
+## Directory Setting
+![Directory](Directory_Setting.png)
 
 ## Dataset
 
