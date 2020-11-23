@@ -24,19 +24,25 @@ We recommend using the dataset we provide because we used the nuscene dataset by
 Because the trained model also has a large capacity, you need to download it through drive link.
 If you unzip just like the directory picture, it will work without any problems.
 
+## Requirements
 
 ## Training
-
+You can train with simple commands like the following by setting the required argumentss on 'main.py' in advance.
+```
 python3 main.py
-
+```
 
 
 ## Testing
+We stored about 80 printed images in '/test/results' in advance. However, if you want to print a new images and see the ADE, FDE results, you can see the new 80 imagess and the following results with the command below.
+![Results](Metric_results.png)
 
+```
 python3 test_visualize.py
+```
 
+## See the results
 
-## Things to need
 
 
 
