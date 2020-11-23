@@ -4,67 +4,41 @@ It is a model that predicts the trajectory of the Vehicle by using deep learning
 
 ![Model Diagram](model_figure.png)
 
-We used Attention, LSTM, etc. to solve various problems of existing MTP.
+We used Attention, LSTM, etc. to solve various problems of existing MTP. The path is generated for all the agents on the image, not for one agent. 
 
 ## Directory Setting
-![Directory](Directory_Setting.png)
+![Directory](Directory_Setting.png)(Experiment_Directory.png)(Data_Directory.png)
+If the train or test (visualization) is to be carried out smoothly, the form of the directory should be as shown in the figure above.
+When the git was first clone, there would not be an experiment and data folder, which was uploaded separately using drive because of its large capacity.
+It is important to note that the data folder should be unzip so that there is no additional data folder in the data folder.
 
 ## Dataset
 
-You will have to download dataset into **data/[corresponding dataset]**, then verify the subdirectory of each dataset. Dataset should have structure same as:
 
-```
--[dataset]
-  |- 
-```
+You can download dataset through link.
+We recommend using the dataset we provide because we used the nuscene dataset by processing.
 
-Dataset will be extracted as cache at the initial execution. When not specified, cache file will be used for preceeding experiments. 
+
+## Trained Model
+
+Because the trained model also has a large capacity, you need to download it through drive link.
+If you unzip just like the directory picture, it will work without any problems.
+
 
 ## Training
 
-See details on *main.py*
+python3 main.py
 
-To train proposed method;
-```
-python3 main.py \
---tag='Global_Scene_CAM_NFDecoder' --model_type='Global_Scene_CAM_NFDecoder' \
---dataset=nuscenes --batch_size=4 --num_epochs=100 --gpu_devices=3 \
---train_cache "./caches/nusc_train_cache.pkl" --val_cache ~/caches/nusc_val_cache.pkl \
---map_version '2.0' 
-```
 
 
 ## Testing
 
-Testing will be used by assigning checkpoint to argument *--test_ckpt*;
-```
-python3 main.py \
---tag "test-Global_Scene_CAM_NFDecoder" --model_type "Global_Scene_CAM_NFDecoder" \
---dataset argoverse --batch_size 64 --gpu_devices 0 \
---test_cache "./caches/argo_val_cache.pkl"  \
---test_partition 'val' --test_dir "./test/argoverse/AttGloScene-LocScene-CAM-NF" --test_ckpt "checkpoint.pth.tar"
-```
-
-## Things to do
-
-- [x] ~~Select appropriate License; currently we used GPLv3.~~ -> License was changed to GPLv2.
-- [ ] MATF_GAN had runtime error which has fixed. For coherence, this will be updated after recieving it.
-- [ ] Check the *requirements*
+python3 test_visualize.py
 
 
-## Citation
-Please cite the original publication;
-
-```
-@article{park2020diverse,
-  title={Diverse and Admissible Trajectory Forecasting through Multimodal Context Understanding},
-  author={Park, Seong Hyeon and Lee, Gyubok and Bhat, Manoj and Seo, Jimin and Kang, Minseok and Francis, Jonathan and Jadhav, Ashwin R and Liang, Paul Pu and Morency, Louis-Philippe},
-  journal={arXiv preprint arXiv:2003.03212},
-  year={2020}
-}
-```
+## Things to need
 
 
-## License
 
-This code is published under the [General Public License version 2.0](LICENSE).
+
+
