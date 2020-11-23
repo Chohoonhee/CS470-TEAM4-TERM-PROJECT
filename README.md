@@ -1,5 +1,5 @@
 # CS470-TEAM4-TERM-PROJECT
-
+It is a model that predicts the trajectory of the Vehicle by using deep learning. 
 
 
 ![Model Diagram](model_figure.png)
