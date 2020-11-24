@@ -6,7 +6,7 @@ from Proposed.model_utils import *
 import math
 import torch.nn.functional as F
 import torchvision.models as models
-import torch_scatter as ts
+#import torch_scatter as ts
 
 
 class AgentEncoderDecoder(nn.Module):
