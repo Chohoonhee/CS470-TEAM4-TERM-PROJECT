@@ -1,6 +1,4 @@
 # CS470-TEAM4-TERM-PROJECT
-<<<<<<< HEAD
-=======
 It is a model that predicts the trajectory of the Vehicle by using deep learning. 
 
 
@@ -58,7 +56,3 @@ python3 test_visualize.py
 
 
 
-
-
-
->>>>>>> db02a89c1dd1685ed70cb756caca058578907e50
