@@ -1,6 +1,4 @@
 # CS470-TEAM4-TERM-PROJECT
-<<<<<<< HEAD
-=======
 It is a model that predicts the trajectory of the Vehicle by using deep learning. 
 
 
@@ -28,13 +26,18 @@ We recommend using the dataset we provide because we used the nuscene dataset by
 https://drive.google.com/file/d/18MgeVviFO9e4zpctcg3T314BQ_6--2t5/view?usp=sharing
 
 Because the trained model also has a large capacity, you need to download it through drive link.
+Directory is created by unziping a file posted on the drive by a folder called 'experiment', as shown in the picture above.
 If you unzip just like the directory picture, it will work without any problems.
 
 ## Requirements
-For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries.
+The code was written using python 3.6, with Linux environment. For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries.
 ```
 conda env create -f CS470_environment.yml
 conda activate new_py
+```
+Or you can set up with pip by running:
+```
+pip install -r requirements.txt
 ```
 
 ## Training
@@ -58,7 +61,3 @@ python3 test_visualize.py
 
 
 
-
-
-
->>>>>>> db02a89c1dd1685ed70cb756caca058578907e50
