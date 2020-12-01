@@ -20,6 +20,7 @@ https://drive.google.com/file/d/1nf8w2YCTlLGRb_HbrB6cW1TXp3rEJoq6/view?usp=shari
 
 You can download dataset through link.
 We recommend using the dataset we provide because we used the nuscene dataset by processing.
+The size of the dataset is so large that it is recommended to run with enough space. Compressed file is 100GB.
 
 
 ## Trained Model
@@ -30,7 +31,7 @@ Directory is created by unziping a file posted on the drive by a folder called '
 If you unzip just like the directory picture, it will work without any problems.
 
 ## Requirements
-The code was written using python 3.6, with Linux environment. For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries.
+The code was written using python 3.6, with Linux environment. For the convenience of users, the conda environment has been copied. If you use this environment as it is, you will be able to use it without having to download additional libraries. Since we have done so in the U environment, we recommend that you do so in the same environment.
 ```
 conda env create -f CS470_environment.yml
 conda activate new_py
